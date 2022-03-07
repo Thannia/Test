@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <h:outputStylesheet library="css" name="hojaEstilo.css"></h:outputStylesheet>
+        <title>
+            <ui:insert name="pageTitle">Ingreso ACTI</ui:insert>
+        </title>
+    </h:head>
+
+    <h:body>
+        <h2>Ingreso al Sistema</h2>
+        <h:form id="ingreso-formulario">
+            
+            <h:panelGrid>
+                <h:outputLabel value="Usuario"></h:outputLabel>
+                <h:inputText></h:inputText>
+                <h:outputLabel value="Contraseña"></h:outputLabel>
+                <h:inputSecret></h:inputSecret>
+                
+            </h:panelGrid>
+            <h:commandButton value="Ingresar"></h:commandButton><h:commandButton value="Cancelar"></h:commandButton>
+        </h:form>
+            
+
+        
+
+    </h:body>
+</html>
+
